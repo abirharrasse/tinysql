@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TinySQL: A Progressive Text-to-SQL Dataset for Mechanistic Interpretability Research</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- REMOVE THIS if you don't want analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -50,14 +48,12 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <!-- NEED: Your personal website URL (or remove this) -->
       <a class="navbar-item" href="YOUR_WEBSITE_URL">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
       </a>
 
-      <!-- Optional: Remove this dropdown if you don't have other projects -->
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           More Research
@@ -108,7 +104,6 @@
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- arXiv -->
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2503.12730"
                   class="external-link button is-normal is-rounded is-dark">
@@ -117,7 +112,6 @@
                 </a>
               </span>
               
-              <!-- Poster -->
               <span class="link-block">
                 <a href="./static/files/tinysql_poster.pdf"
                   class="external-link button is-normal is-rounded is-dark">
@@ -126,7 +120,6 @@
                 </a>
               </span>
               
-              <!-- Code -->
               <span class="link-block">
                 <a href="https://github.com/withmartian/TinySQL"
                   class="external-link button is-normal is-rounded is-dark">
@@ -135,7 +128,6 @@
                 </a>
               </span>
               
-              <!-- Dataset -->
               <span class="link-block">
                 <a href="https://huggingface.co/collections/withmartian/tinysql-6760e92748b63fa56a6ffc9f"
                   class="external-link button is-normal is-rounded is-dark">
@@ -144,7 +136,6 @@
                 </a>
               </span>
               
-              <!-- Models -->
               <span class="link-block">
                 <a href="https://huggingface.co/collections/withmartian/tinysql-6760e92748b63fa56a6ffc9f"
                   class="external-link button is-normal is-rounded is-dark">
@@ -160,7 +151,6 @@
   </div>
 </section>
 
-<!-- NEED: Figure 1 from your paper (the overview figure) -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -175,7 +165,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -192,12 +181,10 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
   </div>
 </section>
 
 
-<!-- NEED: Key figures from your paper -->
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
@@ -209,6 +196,15 @@
           </p>
         </div>
         <img src="./static/images/dataset_structure.png" alt="Dataset Structure" style="width: 100%;">
+        
+        <div class="has-text-centered" style="margin-top: 2rem;">
+          <h3 class="title is-4">Try the Interactive Demo</h3>
+          <a href="https://huggingface.co/spaces/abir-hr196/tinysql-demo" target="_blank">
+            <img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-xl-dark.svg" 
+                 alt="Open in Spaces" 
+                 style="max-width: 300px; cursor: pointer;">
+          </a>
+        </div>
       </div>
     </div>
 
@@ -233,6 +229,44 @@
           </p>
         </div>
         <img src="./static/images/logit_lens.png" alt="Logit Lens Analysis" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Notebooks</h2>
+        <div class="content">
+          <p>Explore our analysis notebooks to reproduce the results and dive deeper into the interpretability techniques.</p>
+        </div>
+        <div class="publication-links">
+          <span class="link-block">
+            <a href="https://github.com/withmartian/TinySQL/blob/main/notebooks/tinysql_EAP_JSON.ipynb"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon"><i class="fas fa-book"></i></span>
+              <span>EAP Circuits</span>
+            </a>
+          </span>
+          
+          <span class="link-block">
+            <a href="https://github.com/withmartian/TinySQL/blob/main/notebooks/SAEs_ablation_.ipynb"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon"><i class="fas fa-book"></i></span>
+              <span>SAE Circuits</span>
+            </a>
+          </span>
+          
+          <span class="link-block">
+            <a href="https://github.com/withmartian/TinySQL/blob/main/notebooks/TinySQL_logit_lens_.ipynb"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon"><i class="fas fa-book"></i></span>
+              <span>LogitLens</span>
+            </a>
+          </span>
+        </div>
       </div>
     </div>
   </div>
